@@ -1,0 +1,17 @@
+ microfabrication techniques have roots in the sta ndard fabrication methods developed for the semic
+o nductor industry . some of these techniqu es are common between the micro/nano and very larg e-sca
+le integration ( VLSI ) microchip fabrication disciplines . lithography is the technique used t o tr
+ansfer a computer-generated pattern onto a sub strate (silicon, glass, GaAs, etc.) this pattern i s 
+then used to etch
+
+Pulsed laser and atomic layer deposition have attr acted a considerable amount of attention re- cent
+l y . these two techniques offer several unique adva ntages compared with other thin-film deposition
+ . the main advantages of the PLD ar e its simplicity and ability to deposit complex ma terials with
+ preserved stoichiometry . other depos ited materials include transition metals (Cu, Co, Fe, and Ni)
+, metal oxide wet
+
+frit can also be used as an interlayer in sub- strate bonding . a thin layer of glass is deposited a
+nd preglazed a nd the sandwich is heated to above the glass melti ng temperature . the dimensional s
+pectrum of the m icrostructures that can be fabricated using these tech-niques spans from 1 mm to 1 
+m and a robot based station can take over precise proces sing and assembly tasks .
+
