@@ -11,10 +11,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 env_config = os.getenv("PROD_APP_SETTINGS", "config.DevelopmentConfig")
-app.config.from_object(env_config)
 
 app = Flask(__name__, template_folder='template')
 app.secret_key = os.getenv("SECRET")
+app.config.from_object(env_config)
+
 
 @app.route('/')
 def home():
