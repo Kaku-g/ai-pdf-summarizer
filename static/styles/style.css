@@ -1,0 +1,55 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+form {
+	width: 400px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+
+
+input[type=file]::file-selector-button {
+	margin-top: 10px;
+	margin-right: 20px;
+	border: none;
+	background: #67696c;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	transition: background .2s ease-in-out;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+	background: #727f7a;
+  }
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #3e8e41;
+}
+
+.error{
+ text-align: center;
+}
+

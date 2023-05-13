@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>File Upload Form</title>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+</head>
+<body>
+	<h2>AI-Pdf Summarizer</h2>
+	<form  method="POST" action="/generate_pdf" enctype="multipart/form-data">
+		<label for="file">Select a file to upload:</label>
+		<input  type="file" id="file" name="file"><br><br>
+		<input  type="submit" value="Upload File">
+		
+	</form>
+	{% for mesg in get_flashed_messages() %}
+      <h3 class="error" style="background-color: #F0F0F0; color: #333; padding: 10px;">{{ mesg }}</h3>
+      {% endfor %}
+
+	
+</body>
+</html>
